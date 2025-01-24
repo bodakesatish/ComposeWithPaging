@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/fragment_customer_list">
+
+
+    <fragment
+        android:id="@+id/fragment_customer_list"
+        android:name="com.bodakesatish.composewithpaging.ui.schemes.FragmentSchemes"
+        android:label="Customer List">
+<!--        <action-->
+<!--            android:id="@+id/action_fragmentCustomerList_to_fragmentAddOrUpdateCustomer"-->
+<!--            app:destination="@id/fragment_add_or_update_customer" />-->
+    </fragment>
+
+</navigation>
